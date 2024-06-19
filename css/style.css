@@ -175,12 +175,42 @@ p {
   src: url("/fonts/StyreneB-Regular.otf");
 }
 
+@font-face {
+  font-family: "StyreneB-bold";
+  src: url("/fonts/StyreneB-Bold.otf");
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: StyreneB, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen-Sans, Ubuntu, Cantarell, helvetica neue, sans-serif;
 }
 
 p {
   font-family: StyreneB-regular, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen-Sans, Ubuntu, Cantarell, helvetica neue, sans-serif;
+}
+
+blockquote {
+  font-family: StyreneB-bold, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen-Sans, Ubuntu, Cantarell, helvetica neue, sans-serif;
+}
+
+details {
+  border: 1px solid var(--dsa-light-gray);
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border: 1px solid var(--dsa-light-gray);
+  margin-bottom: 0.5em;
 }
 
 /* ==========================================================================

@@ -1,12 +1,12 @@
 {
   "name": "Whatcom Public Hospital . org",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A campaign for public healthcare by a resident",
   "private": true,
   "keywords": [
     ""
   ],
-  "license": "",
+  "license": "MIT",
   "author": "airbr on GitHub",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
