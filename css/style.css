@@ -195,7 +195,7 @@ p, summary, footer {
   font-family: StyreneB-regular, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen-Sans, Ubuntu, Cantarell, helvetica neue, sans-serif;
 }
 
-blockquote {
+blockquote, strong {
   font-family: StyreneB-bold, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen-Sans, Ubuntu, Cantarell, helvetica neue, sans-serif;
 }
 
