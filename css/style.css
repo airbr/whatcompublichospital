@@ -206,6 +206,8 @@ details {
   border: 1px solid var(--dsa-light-gray);
   border-radius: 4px;
   padding: 0.5em 0.5em 0;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 summary {
