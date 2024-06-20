@@ -145,7 +145,7 @@ h4 {
   font-size: var(--h4-font-size);
 }
 
-p {
+p, li {
   color: var(--dsa-black);
   font-size: 1.4em;
 }
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: StyreneB, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen-Sans, Ubuntu, Cantarell, helvetica neue, sans-serif;
 }
 
-p, summary, footer {
+p, summary, footer, li {
   font-family: StyreneB-regular, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen-Sans, Ubuntu, Cantarell, helvetica neue, sans-serif;
 }
 
