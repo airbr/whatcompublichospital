@@ -86,6 +86,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.banner {
+  padding: 20px;
+  background-color: palegreen;
+}
+
 body {
   padding: 0px 30px 30px 30px;
   display: flex;
