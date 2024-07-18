@@ -91,6 +91,14 @@ textarea {
   background-color: palegreen;
 }
 
+.banner a {
+  color: black;
+}
+
+.banner a:hover {
+  color: var(--dsa-red);
+}
+
 body {
   padding: 0px 30px 30px 30px;
   display: flex;
