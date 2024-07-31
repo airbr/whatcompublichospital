@@ -4,6 +4,10 @@ const AxeBuilder = require('@axe-core/playwright').default;
 
 test.describe('Home', () => { 
 
+  test.use({
+    colorScheme: 'dark' // or 'light'
+  });
+
   test('Headline is correct', async ({ page }) => {
     await page.goto('/');
     const title = page.locator('h1');
@@ -12,13 +16,10 @@ test.describe('Home', () => {
   });
 
   test('Page should not have any automatically detectable accessibility issues', async ({ page }) => {
-
     await page.goto('/'); 
-
+    
     const accessibilityScanResults = await new AxeBuilder({ page }).analyze(); 
-
     expect(accessibilityScanResults.violations).toEqual([]); 
-
   });
 });
 

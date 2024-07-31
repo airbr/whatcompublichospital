@@ -54,10 +54,17 @@ module.exports = defineConfig({
       use: { ...devices['Pixel 5'] },
     },
     {
-      name: 'Mobile Safari',
+      name: 'Mobile Iphone 12',
       use: { ...devices['iPhone 12'] },
     },
-
+    {
+      name: 'Mobile Iphone 15',
+      use: { ...devices['iPhone 15'] },
+    },
+    {
+      name: 'Mobile Iphone 15 Max',
+      use: { ...devices['iPhone 15 Pro Max'] },
+    },
     /* Test against branded browsers. */
     // {
     //   name: 'Microsoft Edge',
