@@ -91,7 +91,13 @@ textarea {
   background-color: palegreen;
 }
 
-.banner a {
+.banner-grey {
+  margin: 10px;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.banner a, .banner-grey a {
   color: black;
 }
 
