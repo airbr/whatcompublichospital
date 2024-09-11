@@ -105,6 +105,11 @@ textarea {
   color: var(--dsa-red);
 }
 
+.cta-span {
+  color: var(--dsa-black);
+  font-size: 1.4em;
+}
+
 body {
   padding: 0px 30px 30px 30px;
   display: flex;
@@ -164,7 +169,7 @@ h4 {
   font-size: var(--h4-font-size);
 }
 
-p, li, span {
+p, li {
   color: var(--dsa-black);
   font-size: 1.4em;
 }
