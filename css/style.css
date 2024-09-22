@@ -97,10 +97,12 @@ textarea {
   }
 
   ul {
-    padding: 0 !important;
     list-style-type: none;
   }
 
+  li {
+    margin: 10px;
+  }
   /* ul li {
     margin: 20px;
   } */
