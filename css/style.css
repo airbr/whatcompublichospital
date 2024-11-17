@@ -270,6 +270,18 @@ main {
   max-width: var(--max-width);
 }
 
+@media (min-width: var(--max-width)) {
+  main {
+    max-width: var(--max-width);
+  }
+}
+
+@media (max-width: 900px) {
+  main {
+    max-width: 100%;
+  }
+}
+
 h1 {
   color: var(--dsa-red);
   font-size: var(--h1-font-size);
