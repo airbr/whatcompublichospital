@@ -11,6 +11,7 @@ module.exports = merge(common, {
     }),
     new CopyPlugin({
       patterns: [
+        { from: 'data.html', to: 'data.html' },
         { from: 'img', to: 'img' },
         { from: 'css', to: 'css' },
         { from: 'pdf', to: 'pdf' },
