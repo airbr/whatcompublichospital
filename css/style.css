@@ -85,6 +85,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  .embed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
    .cluster {
     padding-left: 0px;
     list-style-type: none;
