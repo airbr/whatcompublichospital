@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Whatcom Public Hospital</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <meta name="description" content="Whatcom County Public Hospital: Data Analysis of the existing hospital">
+
+  <meta property="og:title" content="Whatcom County Public Hospital">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://whatcompublichospital.org">
+  <meta property="og:image" content="https://whatcompublichospital.org/img/money.jpg">
+  <meta property="og:image:alt" content="Whatcom County, Washington State, USA">
+
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="icon" href="../icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link href="https://github.com/airbr" rel="me">
+  <link rel="manifest" href="../site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+  <script type="module" src="../js/app.js"></script>
+</head>
+
+<body>
+  <nav>
+    <h3><a href="/">Home</a></h3>
+  </nav>
+  <main>
+  <h1>Whatcom County Hospital Data</h1>
+  <h2>The Background: The One Game in Town</h2>
+
+  <p>There is only one major hospital in Whatcom County: <a href="https://www.peacehealth.org/hospitals/peacehealth-st-joseph-medical-center">St Josephs Hospital</a>, privately operated by PeaceHealth.</p>
+
+  <p><a href="https://www.cms.gov/priorities/key-initiatives/hospital-price-transparency">St Joseph's is required by law to provide information about it's prices</a> under The Centers for Medicare & Medicaid Services’ Price Transparency Final Rule.</p>
+
+  <h2><a href="https://www.cdmpricing.com/c2b5051ecb723f5355be61d1a3eb6c28/">Get the Data (v2.0 still as of Nov 16 2024)</a></h2>  
+
+  <p>As you will see at this live link of prices, there is an option to download the full machine readable pricing. Unfortunately, this data is <strong>not good quality, not optimally usable nor clear enough for much confidence.</strong></p>  
+
+  <h2>Problems with the Data: What we Found</h2>
+  <p>Our small independent research team built on inspiration from work by the <a href="https://www.cascadiadaily.com/2024/aug/04/cash-prices-are-a-better-deal-for-some-medical-procedures-at-peacehealth-analysis-shows/">Cascadia Daily News,  August 2024</a>. The most recent .CSV file has 12588 rows, 230 columns. We started with a goal of cleaning the data and presenting in a GitHub Repository for analysis.</p>
+
+  <p><strong>We ran into problems...</strong></p>
+
+  <h3>1. Web Search results not always accurate with the data</h3>
+  <p>Prices in the public spreadsheet do not consistently match the price estimator tool they provide. Though in cases where there’s a single price, that might just be because they updated the machine readable version less frequently or something else.</p>
+
+  <h3>2. Potentially inflated number of procedures</h3>
+  <p>There are about 10K unique procedures listed at Saint Joe’s. Do they offer all of them? It is a question how much, as there appears to be duplicate rows for a number of procedures with the same name.</p>
+
+  <h3>3. Large number of duplicate rows: indiscernable logic</h3>
+  <p>Approximately 10% of the procedures have duplicate rows listing sometimes quite different prices for no readily discernable logic.</p>  
+
+  <h3>4. PeaceHealth is unresponsive</h3>
+  <p>We emailed PeaceHealth about discrepancies in the data, and to date we have never got a response.</p>
+
+  <h3>5. Not currently suitable for re-publishing</h3>
+  <p>This data does not seem like a clean, usable data set for useful comparison without significant work and questions answered. It is great that some progress is being made, but further work is necessary to increase price transparency in a meaningful way.</p>
+  
+  <hr>
+
+  <h1>Our hope</h1>
+
+  <p>That in the future we will have better quality data to actually enable meaningful pricing comparisons.</p>
+
+
+
+  </main>
+  <footer><p><a href="https://github.com/airbr">Website Made by Morgan Murrah, Whatcom County Resident</a></p></footer>
+</body>
+
+</html>
