@@ -43,17 +43,17 @@
 
   <details>
     <summary>What is Interoperability of Chargemaster rates?</summary>
-   <p>The ability to compare Chargemaster rates between hospitals easily.</p>
+   <p>The ability to compare Chargemaster rates between hospitals easily. This could include more features than required by law currently. <a href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-E/part-180/subpart-B/section-180.50#p-180.50(b)(2)">Changes are coming, from July 2024</a> new editions of the data will need to be published in a particular format. Currently it appears Hospitals have only to update the data every year.</p>
   </details>
 
   <details>
     <summary>Do these prices even mean anything?</summary>
-   <p>This is a valid question because everything about the rates are heavily couched in disclaimers. There is no guarantee your service will match whatever is given by the estimation but yet these prices are arguably important on a systems level.</p>
+   <p>This is a valid question because everything about the rates are heavily couched in disclaimers. There is no guarantee your individual service will match whatever is given by the estimation but yet these prices are arguably important on a systems level.</p>
   </details>
 
-  <h2><a href="https://www.cdmpricing.com/c2b5051ecb723f5355be61d1a3eb6c28/">Get the Current Whatcom County Hospital Data</a></h2>  
+  <h2><a href="https://www.cdmpricing.com/c2b5051ecb723f5355be61d1a3eb6c28/">Get the most recent Whatcom County Hospital Data (June 2024)</a></h2>  
 
-  <p>As you will see at this live link of prices, there is an option to download the full machine readable pricing. Unfortunately, this data is <strong>not optimally usable for data analysis.</strong> Other hospitals have released data of varying quality also, but we just took a look at St Josephs and one other regional hospital in a nearby county, <a href="https://www.skagitregionalhealth.org/for-patients/finance-and-billing-information/patient-price-information">Skagit Valley Hospital.</a></p>  
+  <p>As you will see at this live link of prices, there is an option to download the full machine readable pricing. Unfortunately, this data is <strong>not optimally usable for data analysis.</strong> Other hospitals have released data of varying quality also, but we just took a look at St Josephs and one other regional hospital in a nearby county, <a href="https://www.skagitregionalhealth.org/for-patients/finance-and-billing-information/patient-price-information">Skagit Valley Hospital.</a> Some similar problems were found with a comparison with Skagit Valley in terms of interoperability.</p>  
 
   <p></p>
 
@@ -61,16 +61,16 @@
   <p>Our small independent research team built on inspiration from work by the <a href="https://www.cascadiadaily.com/2024/aug/04/cash-prices-are-a-better-deal-for-some-medical-procedures-at-peacehealth-analysis-shows/">Cascadia Daily News,  August 2024</a>. The most recent .CSV file has 12588 rows, 230 columns. 
     We started with a goal of cleaning the data and presenting it in a GitHub Repository for analysis.</p>
 
-  <p><strong>We ran into a few problems with the data... these may be common problems in the healthcare industry and other hospitals too but we were no exception.</strong></p>
+  <p><strong>We ran into a few problems with the data... these may be common problems in the healthcare industry and other hospitals too but Whatcom was no exception.</strong></p>
 
-  <h3>1. Web Search results not always accurate with the data</h3>
+  <h3>1. Web Search results not always accurate with machine readable data</h3>
   <p>Prices in the public spreadsheet do not consistently match the price estimator tool they provide. Though in cases where there’s a single price, that might just be because they updated the machine readable version less frequently or something else.</p>
 
   <h3>2. Potentially inflated number of procedures</h3>
-  <p>There are approximately 10K unique procedures listed in the CSV data. Do they offer all of them? It is a question how much, as there appears to be duplicate rows for a number of procedures with the same name.</p>
+  <p>There are approximately 10K unique procedures listed in the CSV data. Do they offer all of them currently? It is a question of how much, as there appears to be duplicate rows for a number of procedures with the same name. Many procedures listed in the machine readable file do not appear surfaceable in the estimation tool (this could be for several reasons, but adds to some doubt).</p>
 
   <h3>3. Large number of duplicate rows: indiscernable logic</h3>
-  <p>Approximately 10% of the procedures have duplicate rows listing sometimes quite different prices for no readily discernable logic.</p>  
+  <p>Approximately 10% of the procedures have duplicate rows listing sometimes quite different prices for no readily discernable logic. </p>  
 
   <h3>4. PeaceHealth is not maintaining this dataset regularly</h3>
   <p>The Machine readable file is stated at the top to last have been updated 6/25/2024. A volunteer emailed PeaceHealth about discrepancies in the data and to date we have never got a response. By a little contrast, <a href="https://www.skagitregionalhealth.org/for-patients/finance-and-billing-information/patient-price-information">Skagit Valley Hospital updated their dataset 9/4/2024.</a></p>
