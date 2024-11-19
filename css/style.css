@@ -85,6 +85,16 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   table {
+    border-collapse: collapse;
+  }
+  td,
+  th {
+    border: 1px solid black;
+    padding: 10px 20px;
+  }
+  
+
   .embed {
     display: flex;
     align-items: center;
@@ -325,8 +335,8 @@ p, li {
   --white: #fff;
   --black: #000;
   --max-width: 900px;
-  --h1-font-size: 3.125rem;
-  --h2-font-size: 2.725rem;
+  --h1-font-size: 3.0rem;
+  --h2-font-size: 2.500rem;
   --h3-font-size: 2.125rem;
   --h4-font-size: 2rem;
 
