@@ -181,7 +181,7 @@ textarea {
   }
   
   .button:active {
-    transform: scale(99%);
+    transform: scale(.99);
   }
   
   /* Variants */
@@ -280,14 +280,14 @@ main {
   max-width: var(--max-width);
 }
 
-@media (min-width: var(--max-width)) {
-  main {
+@media (min-width: 900px) {
+  main, nav {
     max-width: var(--max-width);
   }
 }
 
 @media (max-width: 900px) {
-  main {
+  main, nav {
     max-width: 100%;
   }
 }
